@@ -67,7 +67,7 @@ body {
 
 /* =========== Menu-Navbar =========== */
 a {
-	color: #fff;
+	color: var(--title-color);
 	text-decoration: none;
 	font-size: 30px;
 	font-style:italic;
@@ -344,13 +344,13 @@ h1 {
 		right: 120px;
 		width: 30vw;
 		height: 11vh;
-		background: #89051b;
+		background: var(--card-color);
 		flex-direction:row;
 		align-items: center;
 		justify-content: space-around;
 		border-radius: 8px;
 		border-style: solid;
-		border-color: #31080f;
+		border-color: var(--border-color);
 		transform: translateX(800%);
 		
 	}
