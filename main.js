@@ -31,6 +31,11 @@ mode.classList = "mode";
 mode.setAttribute("for","switch");
 document.body.appendChild(mode);
 
+const daynight = document.createElement('img');
+daynight.classList = "img";
+daynight.src = "Art/daynight.png";
+mode.appendChild(daynight);
+
 const input = document.createElement('input');
 input.classList = "dark";
 input.type = "checkbox";
